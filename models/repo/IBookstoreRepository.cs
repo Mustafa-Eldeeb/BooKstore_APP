@@ -10,7 +10,7 @@ namespace BookStoreApp.models.repo
         IList<TEntity> List();
         TEntity Find(int id);
         void add(TEntity entity);
-        void Update(TEntity entity);
+        void Update(int id, TEntity entity);
         void Delete(int id);
     }
 }
